@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/git_hub_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GitHubLoginActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/git_hub_register_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="GitHub账号登录"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_git_hub_profile"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/git_hub_register_way"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/git_hub_profile" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_user_git_hub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的GitHub账号"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_user_git_hub_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的GitHub密码"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/ck_git_hub_accept_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="我阅读并同意《软件许可及服务协议》"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_git_hub_login"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#2196F3"
+            android:text="登录"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

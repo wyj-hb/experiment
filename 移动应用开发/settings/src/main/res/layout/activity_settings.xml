@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#f96253">
+
+        <TextView
+            android:id="@+id/tv_my_space"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:text="    我的"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@id/tv_my_space"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="-320dp"
+            android:background="@drawable/question_and_settings" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tv_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/tv_count_down_future"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="133dp"
+            android:drawableTop="@drawable/history"
+            android:gravity="center"
+            android:text="历史记录"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_count_down_future"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawableTop="@drawable/count_down"
+            android:gravity="center"
+            android:text="专注记录"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_cloud_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/tv_count_down_future"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="-134dp"
+            android:drawableTop="@drawable/cloud"
+            android:gravity="center"
+            android:text="云数据"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_vip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/vip"
+                android:gravity="left|center"
+                android:text="我的VIP"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_appearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/appearance"
+                android:gravity="left|center"
+                android:text=" 外观设置"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/time"
+                android:gravity="left|center"
+                android:text=" 计时功能设置"
+                android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/tv_bottom_module"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/bottom_module"
+            android:gravity="left|center"
+            android:text=" 自定义底栏模块"
+            android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_color_and_themes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/color_and_themes"
+                android:gravity="left|center"
+                android:text="  颜色搭配"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
