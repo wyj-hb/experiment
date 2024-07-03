@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\实验三">
+      <UniqueIdentifier>{e3a41e7e-42da-4a37-ba47-5fcfae4ca3b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shiyan1_basic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan1_extend1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan2_预测分析法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan2_算符优先分析.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan2_预测分析_赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan2_算符优先_赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="first_follow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shiyan2_LR分析.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="算符优先矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="saas.cpp">
+      <Filter>源文件\实验三</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="error_data_basic.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="keyward_basic.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="keyward_extend1.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="test_basic.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="test_extend1.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="shiyan2.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="shiyan3.txt" />
+    <Text Include="shiyan3_error.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head_extern1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="预测分析.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="first_follow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="算符优先矩阵.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="赋值循环语句.txt" />
+  </ItemGroup>
+</Project>

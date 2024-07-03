@@ -1,0 +1,6 @@
+﻿  shiyan1_extend1.cpp
+  shiyan2_LR分析.cpp
+C:\Users\王喻杰\source\repos\编译原理实验\编译原理实验\shiyan2_LR分析.cpp(241,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\王喻杰\source\repos\编译原理实验\编译原理实验\shiyan2_LR分析.cpp(242,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  编译原理实验.vcxproj -> C:\Users\王喻杰\source\repos\编译原理实验\x64\Debug\编译原理实验.exe

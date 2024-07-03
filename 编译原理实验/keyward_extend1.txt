@@ -1,0 +1,1 @@
+begin end if then else while do for auto bool int char break while void cout endl string

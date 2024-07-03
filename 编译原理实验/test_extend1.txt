@@ -1,0 +1,7 @@
+for(int i = 0;i<10;i++)
+{
+	int a = 5;
+	int b = 3;
+	int c = a + b;
+	cout<< 1EA.3 <<endl;//不符合科学计数法小数的规范
+}
